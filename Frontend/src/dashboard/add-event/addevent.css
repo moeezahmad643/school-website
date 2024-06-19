@@ -1,0 +1,29 @@
+.full-section {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+
+    & input,
+    textarea,
+    button {
+        border: 1px solid gray;
+        padding: 10px;
+        width: 80%;
+        box-shadow: 2px 0 12px rgb(180, 180, 180);
+        border-radius: 5px;
+    }
+
+    & button {
+        background-color: Black;
+        color: white;
+    }
+}

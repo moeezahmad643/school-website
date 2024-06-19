@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0053df;
+.ball1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    z-index: -1;
+    left: 80vw;
+    top: 30vh;
+    border-radius: 100px;
+    background-color: #0053df;
+}
+.ball2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    z-index: -1;
+    left: 70vw;
+    top: 10vh;
+    border-radius: 100px;
+    background-color: #0053df;
+}
+
+    &>section {
+        padding: 50px;
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+
+        & h1 {
+            font-size: 40px;
+        }
+
+        & p {
+            font-size: 15px;
+
+        }
+
+        & img {
+            border-radius: 200px;
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+        }
+    }
+}

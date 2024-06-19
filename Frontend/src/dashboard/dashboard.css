@@ -1,0 +1,24 @@
+main{
+    padding: 10px;
+}
+
+main > section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main >  section div{
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    font-size: 30px;
+    box-shadow:2px 0 12px rgb(195, 195, 195);
+    & p{
+        text-decoration: none;
+    }
+}

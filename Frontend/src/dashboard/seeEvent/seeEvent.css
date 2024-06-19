@@ -1,0 +1,23 @@
+#event{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+
+    .card{
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+
+       & h3{
+            font-size: x-large;
+            padding: 10px;
+        }
+        & p{
+            font-size: small;
+            padding: 10px;
+        }
+    }
+}

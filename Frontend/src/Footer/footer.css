@@ -1,0 +1,22 @@
+footer{
+    background-color: rgb(242, 243, 249);   
+    height: 100px;
+    width: 100%;
+    color: #0053df;
+    font-size: x-large;
+    
+
+    display: flex;
+    align-items: center;
+    place-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    & small {
+        font-size: small;
+    }
+    #footer-elements{
+        display: flex;
+        gap: 10px;
+    }
+}

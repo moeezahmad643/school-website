@@ -1,0 +1,26 @@
+#feature-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+    gap: 20px;
+}
+
+.Feature-card{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  & img {
+    width: 50%;
+
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+   }
+
+  &  p{
+    width: 80%;
+   }
+}
